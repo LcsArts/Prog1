@@ -2,16 +2,16 @@
 
 int main()
    {
-     int i,x,y,j;
+     int a,b,c,d;
       printf("\nDigite o numero de vezes que a sequencia deve ser exibida:");
-      scanf("%d",&j);
-      x=y=1;
-      printf("%d\n",x);
-     for(i=0;i<=(j-1);i++)
+      scanf("%d",&d);
+      b=c=1;
+      printf("%d\n",b);
+     for(a=0;a<=(d-1);a++)
       {
-       y=x-y;
-       x=y+x;
-       printf("%d\n",x);
+       c=b-c;
+       b=c+b;
+       printf("%d\n",b);
       }
  getch();    
  return 0;    
