@@ -13,7 +13,7 @@ int main ()
 			printf("Digite o mes:/n");
 			scanf("%d",&m);
 		}
-	for(m==2;d=<29;d++)
+	for(m==2;d < 29;d++)
 		{
 			printf("%d/%d/2016\n",d,m);
 		}
